@@ -1,71 +1,89 @@
-# Challenge-Alura-Store
-#Indice 
-* Descripción del proyecto
-* Desarrollo del proyecto
-* Resultados
-* Conclusiones
-* Autor
+# 📊 Análisis de Ventas – Comparación de Tiendas
 
-### Descripción del proyecto
-El desafío, es para ayudar al Sr. Juan a decidir qué tienda de su cadena Alura Store debe vender para iniciar un nuevo emprendimiento. Para ello, analizamoss datos de ventas, rendimiento y reseñas de las 4 tiendas de Alura Store. El objetivo es identificar la tienda menos eficiente y presentar una recomendación final basada en los datos.
+## 📌 Descripción del proyecto
+Este proyecto analiza y compara el desempeño de **cuatro tiendas** a partir de datos reales de ventas, con el objetivo de apoyar la **toma de decisiones estratégicas** orientadas a la optimización del patrimonio y la reinversión.
 
-### Desarrollo del proyecto
+El análisis evalúa métricas comerciales, operativas y geográficas, permitiendo identificar **fortalezas, debilidades y oportunidades** en cada tienda.
 
-#### Ingreso total de cada tienda
-#####Todo el desarrollo contemido em Colab
-*La tienda 1 su ingreso total es: $1,150,880,400.00
+El desarrollo se realizó en **Python**, utilizando técnicas de análisis exploratorio de datos y visualización.
 
-*La tienda 2 su ingreso total es: $1,116,343,500.00
+---
 
-*La tienda 3 su ingreso total es: $1,098,019,600.00
+## 🧰 Tecnologías utilizadas
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Folium  
+- Google Colab  
 
-*La tienda 4 su ingreso total es: $1,038,375,700.00 (MÁS BAJO)
+---
 
-#### Ventas por categoría
-#### Ventas por categoría (cantidad de productos vendidos por categoría, tabla resumida) y total por tienda:
-*Tienda 1: 2359
+## 📂 Fuente de datos
+Los datos provienen de **Alura LATAM** y corresponden a cuatro archivos CSV, uno por tienda:
 
-*Tienda 2: 2359
+- Tienda 1  
+- Tienda 2  
+- Tienda 3  
+- Tienda 4  
 
-*Tienda 3: 2359
+Cada archivo incluye:
+- Producto  
+- Categoría del producto  
+- Precio  
+- Costo de envío  
+- Fecha de compra  
+- Calificación  
+- Método de pago
 
-*Tienda 4: 2358 (MÁS BAJO)
+---
 
-#### Calificación promedio de la tienda
-#### Satisfacción del Cliente:
-*Tienda 1: 3.98 (MÁS BAJO)
+## 🔍 Análisis realizados
 
-*Tienda 2: 4.04
+### 1️⃣ Ingresos totales y participación porcentual
+Se calculan los ingresos totales por tienda y su **participación porcentual** sobre el total de ventas.
 
-*Tienda 3: 4.05 (MÁS ALTO)
 
-*Tienda 4: 4.0
+---
 
-### Resultados
-#### Calculemos el ingreso promedio por producto vendido para cada tienda:
+### 2️⃣ Ventas por categoría
+Se analizan las categorías de productos más vendidas por tienda, permitiendo comparar el comportamiento de la demanda entre tiendas y detectar especialización o concentración por tipo de producto.
 
-####Ingreso por producto = Ingreso total / Total de productos vendidos
+---
 
-*Tienda 1: 1,150,880,400 / 2359 ≈ 487,656.80
+### 3️⃣ Productos más y menos vendidos por tienda
+Se identifican los productos con **mayor y menor volumen de ventas** en cada tienda, información clave para decisiones de inventario y catálogo.
 
-*Tienda 2: 1,116,343,500 / 2359 ≈ 473,227.00
 
-*Tienda 3: 1,098,019,600 / 2359 ≈ 465,460.20
+---
 
-*Tienda 4: 1,038,375,700 / 2358 ≈ 440,213.60 (MÁS BAJO)
+### 4️⃣ Costo de envío promedio por tienda
+Se calcula el costo promedio de envío por tienda para comparar el impacto operativo asociado a la experiencia de compra.
 
-### Conclusiones
-*Los ingresos totales son bastante similares, pero la Tienda 4 tiene el ingreso más bajo.
 
-*Las calificaciones de los clientes son también similares, con la Tienda 3 teniendo la más alta (4.05) y la Tienda 1 la más baja (3.98).
+---
 
-*Las ventas totales por cantidad de productos son casi iguales en todas las tiendas (2359, excepto Tienda 4 con 2358).
+### 5️⃣ Relación entre costo de envío y calificación
+Se analiza la relación entre el **costo de envío promedio** y la **calificación de los clientes**, buscando patrones que puedan influir en la percepción del servicio.
 
-*El ingreso promedio por proeducto venddio para cada tienda, el de la tienda 4 es el mas bajo
+---
 
-Con la información obtenida, la Tienda 4 es la que tiene el menor ingreso total, el menor ingreso por producto y una calificación media (aunque no la menor). Por lo tanto, es la candidata a vender.
+## 📈 Conclusión
 
-### Autor
-*Lopez Joaquin
-*Año 2025
-*Proyecto Analisis de datos con Python
+De acuerdo con los análisis realizados, la **Tienda 4** presenta una menor participación en los ingresos totales, manteniendo un desempeño operativo adecuado. **Vender esta tienda permitiría obtener liquidez** sin comprometer significativamente el flujo principal del negocio, **reduciendo el riesgo patrimonial y facilitando la reinversión.**
+
+👉 **Se recomienda vender la **Tienda 4** como una decisión estratégica de ** optimización del portafolio**.**
+
+---
+
+## ▶️ Cómo ejecutar el proyecto
+1. Abrir el notebook en **Google Colab**
+2. Ejecutar las celdas en orden
+3. Verificar la instalación de librerías
+4. Analizar los resultados y visualizaciones generadas
+
+---
+
+## ✍️ Autor
+**Daniela Puebla**  
+Proyecto de Análisis de Datos – Data Science
