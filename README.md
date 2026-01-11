@@ -85,5 +85,5 @@ De acuerdo con los análisis realizados, la **Tienda 4** presenta una menor part
 ---
 
 ## ✍️ Autor
-**Daniela Puebla**  
+**Lopez Joaquin**  
 Proyecto de Análisis de Datos – Data Science
